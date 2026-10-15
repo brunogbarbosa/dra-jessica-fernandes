@@ -62,6 +62,7 @@
   .header .mobile-menu { display: grid; place-items: center; }
 }
 @media (max-width: 700px) {
+  .campaign-topline { display: none; }
   .header, .header:not(.scrolled) { height: 86px; padding: 0 6%; }
   .header .brand-type { font-size: 10px; letter-spacing: .12em; }
   .header .brand-type small { font-size: 7px; }
